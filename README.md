@@ -1,13 +1,13 @@
-Running
-path_to_compiled --algorithm "RF" --trainInput "file:///Users/doruchiulan/Desktop/training_data.csv" --testInput "file:///Users/doruchiulan/Desktop/test_data.csv"  --algoNumTrees 5 --algoMaxDepth 10 --algoMaxBins 2868  --numFolds 3 --trainSample 1.0 --testSample 1.0
+# Running
+`path_to_compiled --algorithm "RF" --trainInput "file:///Users/doruchiulan/Desktop/training_data.csv" --testInput "file:///Users/doruchiulan/Desktop/test_data.csv"  --algoNumTrees 5 --algoMaxDepth 10 --algoMaxBins 2868  --numFolds 3 --trainSample 1.0 --testSample 1.0`
 
-path_to_compiled --algorithm "GBT" --trainInput "file:///Users/doruchiulan/Desktop/training_data.csv" --testInput "file:///Users/doruchiulan/Desktop/test_data.csv"  --algoMaxIter 30 --algoMaxDepth 10 --algoMaxBins 2868  --numFolds 10 --trainSample 1.0 --testSample 1.0
+`path_to_compiled --algorithm "GBT" --trainInput "file:///Users/doruchiulan/Desktop/training_data.csv" --testInput "file:///Users/doruchiulan/Desktop/test_data.csv"  --algoMaxIter 30 --algoMaxDepth 10 --algoMaxBins 2868  --numFolds 10 --trainSample 1.0 --testSample 1.0`
 
-Example output (Random Forest 5 Trees, 10 Depth)
+# Example output (Random Forest 5 Trees, 10 Depth)
 Label is actual value in --testInput, prediction is predicted value
-+-----+------------------+
+
 |label|        prediction|
-+-----+------------------+
+|-----|:----------------:|
 |  107| 92.19870107057952|
 |   74| 66.74340510002506|
 |   86| 87.37438388732222|
@@ -28,4 +28,3 @@ Label is actual value in --testInput, prediction is predicted value
 |    1|1.4314465808587928|
 |   18| 9.618659482951902|
 |   35| 64.65829844342657|
-+-----+------------------+
